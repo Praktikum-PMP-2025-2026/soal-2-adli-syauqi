@@ -38,6 +38,6 @@ int main(){
     for(int i = 0; i < T; i++){
         int count = 0;
         array[i] = rekursif(array[i], count);
-        printf("LANGKAH %d\n\n", array[i]);
+        printf("LANGKAH %d\n", array[i]);
     }
 }
